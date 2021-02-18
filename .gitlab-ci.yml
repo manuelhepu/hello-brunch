@@ -1,0 +1,7 @@
+default:
+    image: node:latest
+
+build-job:
+    stage: build
+    script:
+        - echo "esto es una prueba"
